@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,700,800|Open+Sans:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="home.css">
+  <title>Vibz</title>
+</head>
+<body>
+  <header>
+    <nav aria-label="main navigation">
+      <button id="mobile-ham-btn" class="nav__ham-btn" aria-hidden="true" aria-label="Open the navigation menu"><i class="fa fa-bars"></i></button>
+      <div class="logo-container">
+        <a href="home.html" class="logo-link">
+          <img src="img/logo.svg" class="nav__logo" alt="Vibz Logo">
+        </a>
+      </div>
+      <div class="main-menu">
+        <button aria-hidden="true" id="nav__close-btn" class="nav__close-btn"><i class="fa fa-times"></i></button>
+        <div class="mobile-search-group" id="search-mobile" aria-hidden="true">
+          <label for="search-mobile">Search</label>
+          <input type="text" name="search" class="search-mobile__input" aria-hidden="true" placeholder="Search">
+          <button class="search-mobile-btn">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+        <ul>
+          <li class="main-menu__item"><a href="#">lifestyle</a></li>
+          <li class="main-menu__item"><a href="#">health</a></li>
+          <li class="main-menu__item"><a href="#">news</a></li>
+          <li class="main-menu__item"><a href="#">music</a></li>
+          <li class="main-menu__item"><a href="#">movies</a></li>
+          <li class="main-menu__item"><a href="#">gadgets</a></li>
+        </ul>
+        <ul>
+          <li class="main-menu__item"><a href="#">About Vibz</a></li>
+          <li class="main-menu__item newsletter"><a href="#">Newsletter</a></li>
+          <li class="main-menu__item large-screen-search"><a href="#" id="search"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+    <article class="header__headline featured">
+      <a href="#" class="header__headline-link"></a>
+      <img src="img/headline.jpeg" class="headline-img" alt="">
+      <div class="header__article-details headline-details">
+        <div class="post-meta headline-post-meta category headline-category">Lifestyle</div>
+        <h1 class="header__headline-title">The best places to go for a run</h1>
+        <div class="post-meta headline-post-meta time">
+          <span class="time__hours-ago">5h ago</span>
+          <span class="time__min-length">5 min read</span>
+        </div>
+        <div class="post-meta headline-post-meta likes"><i class="fa fa-heart"></i>1203</div>
+      </div>
+    </article>
+  </header>
+
+  <main>
+    <section class="featured-articles">
+        <article class="featured-articles__headline featured">
+          <a href="#" class="featured-articles__link"></a>
+          <img class="featured-articles__img" src="img/lifting-weight.jpeg" alt="">
+          <span class="category sm-category">health</span>
+          <div class="featured-articles__details">
+            <h2 class="featured-articles__sm-title big-feature">5 mistakes you're making weightlifting</h2>
+            <div class="post-meta time">
+              <span class="time__hours-ago">5h ago</span>
+              <span class="time__min-length">5 min read</span>
+            </div>
+          </div>
+        </article>
+        <article class="featured-articles__headline featured">
+          <a href="#" class="featured-articles__link"></a>
+          <span class="category sm-category">Lifestyle</span>
+          <img class="featured-articles__img" src="img/holding-phone.jpg" alt="">
+          <div class="featured-articles__details">
+            <h2 class="featured-articles__sm-title">5 mistakes you're making weightlifting</h2>
+            <div class="post-meta time">
+              <span class="time__hours-ago">5h ago</span>
+              <span class="time__min-length">5 min read</span>
+            </div>
+          </div>
+        </article>
+        <article class="featured-articles__headline featured">
+          <a href="#" class="featured-articles__link"></a>
+          <span class="category sm-category">Lifestyle</span>
+          <img src="img/sleeping-kitten.jpeg" class="featured-articles__img" alt="Kitten sleeping">
+          <div class="featured-articles__details">
+            <h2 class="featured-articles__sm-title">5 mistakes you're making weightlifting</h2>
+            <div class="post-meta time">
+              <span class="time__hours-ago">5h ago</span>
+              <span class="time__min-length">5 min read</span>
+            </div>
+          </div>
+        </article>
+    </section> <!-- section featured-articles -->
+
+    <section class="category-section">
+      <div class="category-section__title-container">
+        <a href="category.html">
+          <h1 class="category-section__title">lifestyle<i class="fa fa-angle-double-right"></i></h1>
+        </a>
+      </div>
+      <div class="category-articles">
+        <a href="#" class="category-articles__link">
+          <article class="category-articles__top">
+            <div class="category-articles__top-img-box">
+              <img class="category-articles__top-img" src="img/to-do.jpg" alt="">
+            </div>
+            <div class="category-articles__top-post-details">
+              <h2 class="category-articles__top-title article-title">5 Things You Must Do To Start Your Morning Off Right</h2>
+              <p class="article-desc">Your mornings are super important. The moment you wake up, the fate of your day lies in what you do in the next few hours. Dramatic, but true.</p>
+              <div class="post-meta time">
+                <span class="time__hours-ago">5h ago</span>
+                <span class="time__min-length">5 min read</span>
+              </div>
+            </div>
+          </article> <!-- article category-articles__top -->
+        </a>
+        <div class="category-articles__small-posts">
+          <article class="category-articles__sm-post">
+            <a href="#" class="category-articles__post-link"></a>
+            <div class="category-articles__post-container">
+              <img src="img/reading.jpeg" class="category-articles__sm-img" alt="Man reading a book">
+              <div class="category-articles__sm-post-details">
+                <h3 class="category-articles__sm-post-title article-title">
+                  Why Reading Everyday matters
+                </h3>
+                <div class="post-meta time sm-post-meta">
+                  <span class="time__hours-ago">5h ago</span>
+                  <span class="time__min-length">5 min read</span>
+                </div>
+              </div>
+            </div>
+          </article> <!-- article category-articles__sm-post -->
+          <article class="category-articles__sm-post">
+            <a href="#" class="category-articles__post-link"></a>
+            <div class="category-articles__post-container">
+              <img src="img/running2.jpeg" class="category-articles__sm-img" alt="Man running">
+              <div class="category-articles__sm-post-details">
+                <h3 class="category-articles__sm-post-title article-title">
+                  10 Tips on how to create a New Habit
+                </h3>
+                <div class="post-meta time sm-post-meta">
+                  <span class="time__hours-ago">5h ago</span>
+                  <span class="time__min-length">5 min read</span>
+                </div>
+              </div>
+            </div>
+          </article> <!-- article category-articles__sm-post -->
+          <article class="category-articles__sm-post">
+            <a href="#" class="category-articles__post-link"></a>
+            <div class="category-articles__post-container">
+              <img src="img/holding-phone2.jpeg" class="category-articles__sm-img" alt="An iphone in someone's hand">
+              <div class="category-articles__sm-post-details">
+                <h3 class="category-articles__sm-post-title article-title">
+                  You should really stop checking your phone before sleeping
+                </h3>
+                <div class="post-meta time sm-post-meta">
+                  <span class="time__hours-ago">5h ago</span>
+                  <span class="time__min-length">5 min read</span>
+                </div>
+              </div>
+            </div>
+          </article> <!-- article category-articles__sm-post -->
+          <article class="category-articles__sm-post">
+            <a href="#" class="category-articles__post-link"></a>
+            <div class="category-articles__post-container">
+              <img src="img/holding-phone2.jpeg" class="category-articles__sm-img" alt="An iphone in someone's hand">
+              <div class="category-articles__sm-post-details">
+                <h3 class="category-articles__sm-post-title article-title">
+                  You should really stop checking your phone before sleeping
+                </h3>
+                <div class="post-meta time sm-post-meta">
+                  <span class="time__hours-ago">5h ago</span>
+                  <span class="time__min-length">5 min read</span>
+                </div>
+              </div>
+            </div> <!-- div category-articles__post-container -->
+          </article> <!-- article category-articles__sm-post -->
+        </div>
+      </div>
+    </section> <!-- section category-section -->
+
+    <section class="featured-author">
+      <div class="featured-author__author-details">
+        <div class="featured-author__author-box">
+          <span class="featured-author__tag">Featured Author</span>
+          <h1 class="featured-author__name">Taylor Radford</h1>
+        </div>
+      </div>
+      <div class="featured-author__article">
+        <div class="featured-author__img-box">
+          <div class="featured-author__author-pic">
+            <img src="img/author.jpeg" class="featured-author__img" alt="">
+          </div>
+          <img src="img/skateboard.jpeg" class="featured-author__headline-img" alt="Someone doing a skateboarding trick.">
+          <div class="post-meta category featured-author__category"><a href="#" class="featured-author__cat-link">Lifestyle</a></div>
+        </div>
+        <div class="featured-author__article-details">
+          <div class="featured-author__article-text">
+            <a href="#" class="featured-author__headline"><h1>how skateboarding helped me cope with depression</h1></a>
+            <p class="featured-author__article-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+    </section> <!-- section featured-author -->
+
+    <section class="category-section">
+      <div class="category-section__title-container">
+        <a href="category.html">
+          <h1 class="category-section__title">category<i class="fa fa-angle-double-right"></i></h1>
+        </a>
+      </div>
+      <div class="category-articles">
+        <a href="#" class="category-articles__link">
+          <article class="category-articles__top">
+            <div class="category-articles__top-img-box">
+              <img class="category-articles__top-img" src="img/to-do.jpg" alt="">
+            </div>
+            <div class="category-articles__top-post-details">
+              <h2 class="category-articles__top-title article-title">5 Things You Must Do To Start Your Morning Off Right</h2>
+              <p class="article-desc">Your mornings are super important. The moment you wake up, the fate of your day lies in what you do in the next few hours. Dramatic, but true.</p>
+              <div class="post-meta time">
+                <span class="time__hours-ago">5h ago</span>
+                <span class="time__min-length">5 min read</span>
+              </div>
+            </div>
+          </article> <!-- article category-articles__top -->
+        </a>
+        <div class="category-articles__small-posts">
+          <article class="category-articles__sm-post">
+            <a href="#" class="category-articles__post-link"></a>
+            <div class="category-articles__post-container">
+              <img src="img/reading.jpeg" class="category-articles__sm-img" alt="Man reading a book">
+              <div class="category-articles__sm-post-details">
+                <h3 class="category-articles__sm-post-title article-title">
+                  Why Reading Everyday matters
+                </h3>
+                <div class="post-meta time sm-post-meta">
+                  <span class="time__hours-ago">5h ago</span>
+                  <span class="time__min-length">5 min read</span>
+                </div>
+              </div>
+            </div>
+          </article> <!-- article category-articles__sm-post -->
+          <article class="category-articles__sm-post">
+            <a href="#" class="category-articles__post-link"></a>
+            <div class="category-articles__post-container">
+              <img src="img/running2.jpeg" class="category-articles__sm-img" alt="Man running">
+              <div class="category-articles__sm-post-details">
+                <h3 class="category-articles__sm-post-title article-title">
+                  10 Tips on how to create a New Habit
+                </h3>
+                <div class="post-meta time sm-post-meta">
+                  <span class="time__hours-ago">5h ago</span>
+                  <span class="time__min-length">5 min read</span>
+                </div>
+              </div>
+            </div>
+          </article> <!-- article category-articles__sm-post -->
+          <article class="category-articles__sm-post">
+            <a href="#" class="category-articles__post-link"></a>
+            <div class="category-articles__post-container">
+              <img src="img/holding-phone2.jpeg" class="category-articles__sm-img" alt="An iphone in someone's hand">
+              <div class="category-articles__sm-post-details">
+                <h3 class="category-articles__sm-post-title article-title">
+                  You should really stop checking your phone before sleeping
+                </h3>
+                <div class="post-meta time sm-post-meta">
+                  <span class="time__hours-ago">5h ago</span>
+                  <span class="time__min-length">5 min read</span>
+                </div>
+              </div>
+            </div>
+          </article> <!-- article category-articles__sm-post -->
+          <article class="category-articles__sm-post">
+            <a href="#" class="category-articles__post-link"></a>
+            <div class="category-articles__post-container">
+              <img src="img/holding-phone2.jpeg" class="category-articles__sm-img" alt="An iphone in someone's hand">
+              <div class="category-articles__sm-post-details">
+                <h3 class="category-articles__sm-post-title article-title">
+                  You should really stop checking your phone before sleeping
+                </h3>
+                <div class="post-meta time sm-post-meta">
+                  <span class="time__hours-ago">5h ago</span>
+                  <span class="time__min-length">5 min read</span>
+                </div>
+              </div>
+            </div> <!-- div category-articles__post-container -->
+          </article> <!-- article category-articles__sm-post -->
+        </div>
+      </div>
+    </section> <!-- section category-section -->
+
+    <section class="most-read">
+      <h1>Most read</h1>
+      <div class="most-read__articles">
+        <div class="most-read__first-half">
+          <div class="most-read__article">
+            <a href="#" class="most-read__article-link"></a>
+            <span class="most-read__num">1</span>
+            <h3 class="most-read__article-title article-title">The Ultimate Green Shake</h3>
+          </div>
+          <div class="most-read__article">
+            <a href="#" class="most-read__article-link"></a>
+            <span class="most-read__num">2</span>
+            <h3 class="most-read__article-title article-title">5 breakfast recipes guaranteed to energize you for the day</h3>
+          </div>
+          <div class="most-read__article">
+            <a href="#" class="most-read__article-link"></a>
+            <span class="most-read__num">3</span>
+            <h3 class="most-read__article-title article-title">Go Nuts For Nuts! Benefits Abound</h3>
+          </div>
+          <div class="most-read__article">
+            <a href="#" class="most-read__article-link"></a>
+            <span class="most-read__num">4</span>
+            <h3 class="most-read__article-title article-title">can’t sleep? try these 5 tips before bedtime</h3>
+          </div>
+          <div class="most-read__article">
+            <a href="#" class="most-read__article-link"></a>
+            <span class="most-read__num">5</span>
+            <h3 class="most-read__article-title article-title">Don't Just Sit There! Start towards your goal NOW!</h3>
+          </div>
+        </div> <!-- most-read__first-half -->
+        <div class="most-read__second-half">
+          <div class="most-read__article">
+            <a href="#" class="most-read__article-link"></a>
+            <span class="most-read__num">6</span>
+            <h3 class="most-read__article-title article-title">The Ultimate Green Shake</h3>
+          </div>
+          <div class="most-read__article">
+            <a href="#" class="most-read__article-link"></a>
+            <span class="most-read__num">7</span>
+            <h3 class="most-read__article-title article-title">5 breakfast recipes guaranteed to energize you for the day</h3>
+          </div>
+          <div class="most-read__article">
+            <a href="#" class="most-read__article-link"></a>
+            <span class="most-read__num">8</span>
+            <h3 class="most-read__article-title article-title">Go Nuts For Nuts! Benefits Abound</h3>
+          </div>
+          <div class="most-read__article">
+            <a href="#" class="most-read__article-link"></a>
+            <span class="most-read__num">9</span>
+            <h3 class="most-read__article-title article-title">can’t sleep? try these 5 tips before bedtime</h3>
+          </div>
+          <div class="most-read__article">
+            <a href="#" class="most-read__article-link"></a>
+            <span class="most-read__num">10</span>
+            <h3 class="most-read__article-title article-title">Don't Just Sit There! Start towards your goal NOW!</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="follow-instagram">
+      <div class="follow-instagram__msg">
+        <a href="#" class="follow-instagram__instagram-link"></a>
+        <h2 class="follow-instagram__heading">Follow us on Instagram</h2>
+        <p>Never miss the latest trends.</p>
+      </div>
+      <div class="follow-instagram__gallery">
+        <figure class="follow-instagram__gallery-item">
+          <a href="#" class="follow-instagram__img-link">
+            <img src="img/hike.jpg" class="follow-instagram__gallery-img" alt="">
+          </a>
+        </figure>
+        <figure class="follow-instagram__gallery-item">
+          <a href="#" class="follow-instagram__img-link">
+            <img src="https://images.pexels.com/photos/701016/pexels-photo-701016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="follow-instagram__gallery-img" alt="">
+          </a>
+        </figure>
+        <figure class="follow-instagram__gallery-item">
+          <a href="#" class="follow-instagram__img-link">
+            <img src="https://images.pexels.com/photos/221210/pexels-photo-221210.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="follow-instagram__gallery-img" alt="">
+          </a>
+        </figure>
+        <figure class="follow-instagram__gallery-item">
+          <a href="#" class="follow-instagram__img-link">
+            <img src="https://images.pexels.com/photos/210243/pexels-photo-210243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="follow-instagram__gallery-img" alt="">
+          </a>
+        </figure>
+        <figure class="follow-instagram__gallery-item">
+          <a href="#" class="follow-instagram__img-link">
+            <img src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="follow-instagram__gallery-img" alt="">
+          </a>
+        </figure>
+        <figure class="follow-instagram__gallery-item">
+          <a href="#" class="follow-instagram__img-link">
+            <img src="https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="follow-instagram__gallery-img" alt="">
+          </a>
+        </figure>
+        <figure class="follow-instagram__gallery-item">
+          <a href="#" class="follow-instagram__img-link">
+            <img src="https://images.pexels.com/photos/1295572/pexels-photo-1295572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="follow-instagram__gallery-img" alt="">
+          </a>
+        </figure>
+        <figure class="follow-instagram__gallery-item">
+          <a href="#" class="follow-instagram__img-link">
+            <img src="https://images.pexels.com/photos/2080544/pexels-photo-2080544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="follow-instagram__gallery-img" alt="">
+          </a>
+        </figure>
+        <figure class="follow-instagram__gallery-item">
+          <a href="#" class="follow-instagram__img-link">
+            <img src="https://images.pexels.com/photos/1049317/pexels-photo-1049317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="follow-instagram__gallery-img" alt="">
+          </a>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer aria-label="Vibz Footer">
+    <div class="footer__container">
+      <img src="img/logo.svg" class="footer__logo" alt="Vibz Logo">
+      <div class="footer__module">
+        <ul>
+          <li class="footer__item"><a href="#">about vibz</a></li>
+          <li class="footer__item"><a href="#">contact us</a></li>
+          <li class="footer__item"><a href="#">privacy policy</a></li>
+          <li class="footer__item"><a href="#">terms and conditions</a></li>
+        </ul>
+      </div>
+      <div class="footer__module">
+        <ul>
+          <li class="footer__item"><a href="#">Want to be featured?</a></li>
+          <li class="footer__item">Connect with us:
+            <div class="footer__socials">
+              <a href="#" class="footer__social-item"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="#" class="footer__social-item"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+              <a href="#" class="footer__social-item"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            </div>
+            </li>
+        </ul>
+      </div>
+      <div class="footer__module newsletter-signup">
+        <h3 class="footer__newsletter-heading">Stay up to date.</h3>
+        <p class="footer__newsletter-msg">Sign up for our newsletter, and receive our top articles daily!</p>
+        <form class="footer__form-group">
+          <label for="footer__email-input" class="footer__email-prompt">Your Email Address</label> <!-- hide this -->
+          <input type="email" class="footer__email-input" placeholder="Email">
+          <button class="footer__signup-btn">sign up</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
