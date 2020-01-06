@@ -12,14 +12,14 @@
 <body>
   <header>
     <nav aria-label="main navigation">
-      <button id="mobile-ham-btn" class="nav__ham-btn" aria-hidden="true" aria-label="Open the navigation menu"><i class="fa fa-bars"></i></button>
+      <button id="mobile-ham-btn" class="nav__ham-btn" aria-label="Open the navigation menu" aria-expanded="false" aria-controls="main-menu"><i class="fa fa-bars"></i></button>
       <div class="logo-container">
         <a href="home.html" class="logo-link">
           <img src="img/logo.svg" class="nav__logo" alt="Vibz Logo">
         </a>
       </div>
-      <div class="main-menu">
-        <button aria-hidden="true" id="nav__close-btn" class="nav__close-btn"><i class="fa fa-times"></i></button>
+      <div class="main-menu" id="main-menu">
+        <button id="nav__close-btn" class="nav__close-btn"><i class="fa fa-times"></i></button>
         <div class="mobile-search-group" id="search-mobile" aria-hidden="true">
           <label for="search-mobile">Search</label>
           <input type="text" name="search" class="search-mobile__input" aria-hidden="true" placeholder="Search">
